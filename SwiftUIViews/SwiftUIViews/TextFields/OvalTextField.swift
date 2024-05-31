@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct OvalTextField: View {
+    @Binding var text: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            TextField("Search...", text: $text)
+        }
+        .textFieldStyle(OvalTextFieldStyle())
     }
 }
 
 #Preview {
-    OvalTextField()
+    OvalTextField(text: .constant(""))
 }

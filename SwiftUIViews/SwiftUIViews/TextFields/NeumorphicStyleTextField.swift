@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct NeumorphicStyleTextField: View {
+    var textField: TextField<Text>
+    var imageName: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image(systemName: imageName)
+                .foregroundColor(.darkShadow)
+            textField
+        }
+        .padding()
+        .foregroundColor(.neumorphictextColor)
+        .background(Color.background)
+        .cornerRadius(6)
+        .shadow(color: Color.darkShadow, radius: 3, x: 2, y: 2)
+        .shadow(color: Color.lightShadow, radius: 3, x: -2, y: -2)
     }
 }
 
 #Preview {
-    NeumorphicStyleTextField()
+    NeumorphicStyleTextField(textField: TextField("Search...", text: .constant("")), imageName: "magnifyingglass")
 }

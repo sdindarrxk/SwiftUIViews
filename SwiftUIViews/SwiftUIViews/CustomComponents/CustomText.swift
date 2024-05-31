@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CustomText: View {
+struct CustomText: View, VoidActionable {
     var text: String
     var color: Color
     var size: CGFloat

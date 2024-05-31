@@ -7,12 +7,25 @@
 
 import SwiftUI
 
-struct OutlinedTextField: View {
+struct OutlinedTextField: View, TextFieldDelegate, Imagable {
+    var placeholder: String
+    var text: Binding<String>
+    var image: String?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            HStack {
+                if let image = image {
+                    Image(systemName: image)
+                }
+                TextField(placeholder, text: text)
+            }
+            .modifier(outlinedViewModifier(roundedCorners: 6, startColor: .teal, endColor: .mint, textColor: .white))
+        }
+        .padding()
     }
 }
 
 #Preview {
-    OutlinedTextField()
+    OutlinedTextField(placeholder: "UserName", text: .constant(""), image: "person")
 }

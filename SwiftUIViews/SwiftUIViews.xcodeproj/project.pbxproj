@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3525C6B82C07F1CA00AC800A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6B72C07F1CA00AC800A /* CustomTextField.swift */; };
+		3525C6BA2C07F61700AC800A /* TextFieldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6B92C07F61700AC800A /* TextFieldContentView.swift */; };
+		3525C6BC2C07F76300AC800A /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6BB2C07F76300AC800A /* PasswordTextField.swift */; };
+		3525C6BE2C08237900AC800A /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6BD2C08237900AC800A /* UnderlinedTextField.swift */; };
+		3525C6C12C0823BE00AC800A /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6C02C0823BE00AC800A /* ViewExtension.swift */; };
+		3525C6C32C082BAE00AC800A /* SearchingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6C22C082BAE00AC800A /* SearchingTextField.swift */; };
+		3525C6C52C08372500AC800A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6C42C08372500AC800A /* ColorExtension.swift */; };
+		3525C6C72C08375E00AC800A /* NeumorphicStyleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6C62C08375E00AC800A /* NeumorphicStyleTextField.swift */; };
+		3525C6C92C0838D500AC800A /* OvalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6C82C0838D500AC800A /* OvalTextField.swift */; };
+		3525C6CB2C083B0B00AC800A /* OutlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6CA2C083B0B00AC800A /* OutlinedTextField.swift */; };
+		3525C6CD2C0843DB00AC800A /* CommonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6CC2C0843DB00AC800A /* CommonTextField.swift */; };
+		3525C6D02C08586800AC800A /* ValidationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6CF2C08586800AC800A /* ValidationModel.swift */; };
+		3525C6D32C0858F100AC800A /* ValidationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6D22C0858F100AC800A /* ValidationDelegate.swift */; };
+		3525C6D52C08593C00AC800A /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6D42C08593C00AC800A /* Validations.swift */; };
+		3525C6D72C085B7800AC800A /* IllusionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6D62C085B7800AC800A /* IllusionTextField.swift */; };
+		3525C6D92C086E6F00AC800A /* ButterflyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6D82C086E6F00AC800A /* ButterflyTextField.swift */; };
+		3525C6DB2C08707F00AC800A /* GangnamTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6DA2C08707F00AC800A /* GangnamTextField.swift */; };
+		3525C6DD2C0877B800AC800A /* BasicLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6DC2C0877B800AC800A /* BasicLoginView.swift */; };
+		3525C6DF2C08868300AC800A /* ProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6DE2C08868300AC800A /* ProtocolExtension.swift */; };
 		357B0B5A2C07AE35000B9A7C /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B0B592C07AE35000B9A7C /* TitleLabel.swift */; };
 		357B0B5C2C07AE80000B9A7C /* SubtitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B0B5B2C07AE80000B9A7C /* SubtitleLabel.swift */; };
 		357B0B5E2C07AEB4000B9A7C /* IconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B0B5D2C07AEB4000B9A7C /* IconLabel.swift */; };
@@ -22,6 +41,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3525C6B72C07F1CA00AC800A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		3525C6B92C07F61700AC800A /* TextFieldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContentView.swift; sourceTree = "<group>"; };
+		3525C6BB2C07F76300AC800A /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		3525C6BD2C08237900AC800A /* UnderlinedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderlinedTextField.swift; sourceTree = "<group>"; };
+		3525C6C02C0823BE00AC800A /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		3525C6C22C082BAE00AC800A /* SearchingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingTextField.swift; sourceTree = "<group>"; };
+		3525C6C42C08372500AC800A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		3525C6C62C08375E00AC800A /* NeumorphicStyleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicStyleTextField.swift; sourceTree = "<group>"; };
+		3525C6C82C0838D500AC800A /* OvalTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvalTextField.swift; sourceTree = "<group>"; };
+		3525C6CA2C083B0B00AC800A /* OutlinedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedTextField.swift; sourceTree = "<group>"; };
+		3525C6CC2C0843DB00AC800A /* CommonTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextField.swift; sourceTree = "<group>"; };
+		3525C6CF2C08586800AC800A /* ValidationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationModel.swift; sourceTree = "<group>"; };
+		3525C6D22C0858F100AC800A /* ValidationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationDelegate.swift; sourceTree = "<group>"; };
+		3525C6D42C08593C00AC800A /* Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
+		3525C6D62C085B7800AC800A /* IllusionTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllusionTextField.swift; sourceTree = "<group>"; };
+		3525C6D82C086E6F00AC800A /* ButterflyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButterflyTextField.swift; sourceTree = "<group>"; };
+		3525C6DA2C08707F00AC800A /* GangnamTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GangnamTextField.swift; sourceTree = "<group>"; };
+		3525C6DC2C0877B800AC800A /* BasicLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLoginView.swift; sourceTree = "<group>"; };
+		3525C6DE2C08868300AC800A /* ProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtension.swift; sourceTree = "<group>"; };
 		357B0B592C07AE35000B9A7C /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
 		357B0B5B2C07AE80000B9A7C /* SubtitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleLabel.swift; sourceTree = "<group>"; };
 		357B0B5D2C07AEB4000B9A7C /* IconLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconLabel.swift; sourceTree = "<group>"; };
@@ -48,6 +86,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3525C6B62C07F17F00AC800A /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				3525C6D82C086E6F00AC800A /* ButterflyTextField.swift */,
+				3525C6CC2C0843DB00AC800A /* CommonTextField.swift */,
+				3525C6DA2C08707F00AC800A /* GangnamTextField.swift */,
+				3525C6D62C085B7800AC800A /* IllusionTextField.swift */,
+				3525C6C62C08375E00AC800A /* NeumorphicStyleTextField.swift */,
+				3525C6CA2C083B0B00AC800A /* OutlinedTextField.swift */,
+				3525C6C82C0838D500AC800A /* OvalTextField.swift */,
+				3525C6BB2C07F76300AC800A /* PasswordTextField.swift */,
+				3525C6C22C082BAE00AC800A /* SearchingTextField.swift */,
+				3525C6BD2C08237900AC800A /* UnderlinedTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		3525C6BF2C0823AD00AC800A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3525C6C02C0823BE00AC800A /* ViewExtension.swift */,
+				3525C6C42C08372500AC800A /* ColorExtension.swift */,
+				3525C6DE2C08868300AC800A /* ProtocolExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3525C6D12C08588B00AC800A /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				3525C6CF2C08586800AC800A /* ValidationModel.swift */,
+				3525C6D22C0858F100AC800A /* ValidationDelegate.swift */,
+				3525C6D42C08593C00AC800A /* Validations.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
 		357B0B562C07AD7D000B9A7C /* Labels */ = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				357B0B5F2C07B989000B9A7C /* CustomText.swift */,
+				3525C6B72C07F1CA00AC800A /* CustomTextField.swift */,
 			);
 			path = CustomComponents;
 			sourceTree = "<group>";
@@ -74,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				359363122C07AC4000B1C233 /* TextContentView.swift */,
+				3525C6B92C07F61700AC800A /* TextFieldContentView.swift */,
+				3525C6DC2C0877B800AC800A /* BasicLoginView.swift */,
 			);
 			path = ContentViews;
 			sourceTree = "<group>";
@@ -98,9 +176,12 @@
 			isa = PBXGroup;
 			children = (
 				359363102C07AC4000B1C233 /* SwiftUIViewsApp.swift */,
+				3525C6D12C08588B00AC800A /* Validation */,
 				357B0B642C07DCA3000B9A7C /* ContentViews */,
-				357B0B562C07AD7D000B9A7C /* Labels */,
 				357B0B612C07D754000B9A7C /* CustomComponents */,
+				3525C6B62C07F17F00AC800A /* TextFields */,
+				357B0B562C07AD7D000B9A7C /* Labels */,
+				3525C6BF2C0823AD00AC800A /* Extensions */,
 				359363142C07AC4100B1C233 /* Assets.xcassets */,
 				359363162C07AC4100B1C233 /* Preview Content */,
 			);
@@ -185,15 +266,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3525C6C32C082BAE00AC800A /* SearchingTextField.swift in Sources */,
+				3525C6DD2C0877B800AC800A /* BasicLoginView.swift in Sources */,
 				357B0B662C07DD61000B9A7C /* BodyLabel.swift in Sources */,
+				3525C6B82C07F1CA00AC800A /* CustomTextField.swift in Sources */,
+				3525C6CB2C083B0B00AC800A /* OutlinedTextField.swift in Sources */,
 				357B0B6A2C07DDB6000B9A7C /* FooterLabel.swift in Sources */,
+				3525C6BE2C08237900AC800A /* UnderlinedTextField.swift in Sources */,
 				359363132C07AC4000B1C233 /* TextContentView.swift in Sources */,
+				3525C6D72C085B7800AC800A /* IllusionTextField.swift in Sources */,
+				3525C6C92C0838D500AC800A /* OvalTextField.swift in Sources */,
+				3525C6C52C08372500AC800A /* ColorExtension.swift in Sources */,
+				3525C6BA2C07F61700AC800A /* TextFieldContentView.swift in Sources */,
+				3525C6D52C08593C00AC800A /* Validations.swift in Sources */,
+				3525C6DB2C08707F00AC800A /* GangnamTextField.swift in Sources */,
 				357B0B5A2C07AE35000B9A7C /* TitleLabel.swift in Sources */,
+				3525C6DF2C08868300AC800A /* ProtocolExtension.swift in Sources */,
 				357B0B5C2C07AE80000B9A7C /* SubtitleLabel.swift in Sources */,
 				359363112C07AC4000B1C233 /* SwiftUIViewsApp.swift in Sources */,
+				3525C6C12C0823BE00AC800A /* ViewExtension.swift in Sources */,
 				357B0B632C07DC65000B9A7C /* CaptionLabel.swift in Sources */,
+				3525C6BC2C07F76300AC800A /* PasswordTextField.swift in Sources */,
+				3525C6CD2C0843DB00AC800A /* CommonTextField.swift in Sources */,
 				357B0B5E2C07AEB4000B9A7C /* IconLabel.swift in Sources */,
+				3525C6C72C08375E00AC800A /* NeumorphicStyleTextField.swift in Sources */,
+				3525C6D32C0858F100AC800A /* ValidationDelegate.swift in Sources */,
 				357B0B682C07DD82000B9A7C /* HeaderLabel.swift in Sources */,
+				3525C6D92C086E6F00AC800A /* ButterflyTextField.swift in Sources */,
+				3525C6D02C08586800AC800A /* ValidationModel.swift in Sources */,
 				357B0B602C07B989000B9A7C /* CustomText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

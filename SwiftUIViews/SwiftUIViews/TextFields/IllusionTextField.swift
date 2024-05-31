@@ -7,12 +7,20 @@
 
 import SwiftUI
 
-struct IllusionTextField: View {
+struct IllusionTextField: View, TextFieldDelegate {
+    var placeholder: String
+    var text: Binding<String>
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            HStack {
+                TextField(placeholder, text: text)
+                    .illusionTextField(roundedCorners: 6, shadowColor: .gray, startColor: .white, endColor: .red)
+            }
+        }.padding()
     }
 }
 
 #Preview {
-    IllusionTextField()
+    IllusionTextField(placeholder: "İllüze etmek için doğru yerdesiniz...", text: .constant(""))
 }

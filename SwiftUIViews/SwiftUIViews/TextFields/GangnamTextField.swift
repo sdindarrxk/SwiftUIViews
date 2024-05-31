@@ -7,12 +7,20 @@
 
 import SwiftUI
 
-struct GangnamTextField: View {
+struct GangnamTextField: View, TextFieldDelegate {
+    var placeholder: String
+    var text: Binding<String>
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            HStack {
+                TextField(placeholder, text: text)
+                    .gangnamTextFieldStyle(startColor: .white, endColor: .red, shadowColor: .gray)
+            }
+        }.padding()
     }
 }
 
 #Preview {
-    GangnamTextField()
+    GangnamTextField(placeholder: "Kankam Sıtayl", text: .constant(""))
 }

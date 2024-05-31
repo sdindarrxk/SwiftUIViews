@@ -7,12 +7,20 @@
 
 import SwiftUI
 
-struct ButterflyTextField: View {
+struct ButterflyTextField: View, TextFieldDelegate {
+    var placeholder: String
+    var text: Binding<String>
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading) {
+            HStack {
+                TextField(placeholder, text: text)
+                    .butterflyTextFieldStyle(startColor: .blue, endColor: .green, trailingShadowColor: .red, leadingShadowColor: .yellow, centerShadowColor: .gray)
+            }
+        }.padding()
     }
 }
 
 #Preview {
-    ButterflyTextField()
+    ButterflyTextField(placeholder: "battır çikkin", text: .constant(""))
 }
