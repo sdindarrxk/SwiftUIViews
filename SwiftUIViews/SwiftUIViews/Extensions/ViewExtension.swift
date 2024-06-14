@@ -50,8 +50,8 @@ extension View {
             .foregroundColor(centerShadowColor)
             .background(LinearGradient(gradient: Gradient(colors: [startColor, endColor]), startPoint: .topLeading, endPoint: .bottomTrailing))
             .cornerRadius(roundedCorners)
-            .shadow(color: trailingShadowColor, radius: 10, x: 10, y: 5)
-            .shadow(color: leadingShadowColor, radius: 10, x: -10, y: -5)
+            .shadow(color: trailingShadowColor, radius: 5, x: 2, y: 2)
+            .shadow(color: leadingShadowColor, radius: 5, x: -2, y: -2)
             .shadow(color: centerShadowColor, radius: 1)
     }
 }

@@ -58,16 +58,16 @@ struct IconLabel: View {
     
     @ViewBuilder
     private var labelContent: some View {
-        HStack {
+        HStack(spacing: 10) {
             if labelType == .iconOnly || labelType == .both {
                 Image(systemName: icon)
                     .foregroundColor(iconColor)
-                    .font(.title)
+                    .font(.largeTitle)
             }
             if labelType == .labelOnly || labelType == .both {
                 if let text = text {
                     Text(text)
-                        .font(.headline)
+                        .font(.title)
                         .foregroundColor(.primary)
                 }
             }
@@ -83,7 +83,7 @@ struct IconLabel: View {
     }
 }
 #Preview {
-    IconLabel(text: "Person", icon: "person") {
+    IconLabel(text: "Password", icon: "lock") {
         print("person tapped")
     }
 }

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351D70742CCE925700753788 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D70732CCE925700753788 /* CustomButton.swift */; };
+		351D70762CCE938C00753788 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D70752CCE938C00753788 /* IconButton.swift */; };
+		351D70782CCE940300753788 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D70772CCE940300753788 /* CloseButton.swift */; };
+		351D707A2CCE951C00753788 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D70792CCE951C00753788 /* ToggleButton.swift */; };
+		351D707C2CCE955100753788 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D707B2CCE955100753788 /* RoundButton.swift */; };
 		3525C6B82C07F1CA00AC800A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6B72C07F1CA00AC800A /* CustomTextField.swift */; };
 		3525C6BA2C07F61700AC800A /* TextFieldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6B92C07F61700AC800A /* TextFieldContentView.swift */; };
 		3525C6BC2C07F76300AC800A /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3525C6BB2C07F76300AC800A /* PasswordTextField.swift */; };
@@ -38,9 +43,15 @@
 		359363132C07AC4000B1C233 /* TextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359363122C07AC4000B1C233 /* TextContentView.swift */; };
 		359363152C07AC4100B1C233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359363142C07AC4100B1C233 /* Assets.xcassets */; };
 		359363182C07AC4100B1C233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 359363172C07AC4100B1C233 /* Preview Assets.xcassets */; };
+		35C6E6FC2C1CE57600482996 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C6E6FB2C1CE57600482996 /* SectionHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		351D70732CCE925700753788 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		351D70752CCE938C00753788 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		351D70772CCE940300753788 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		351D70792CCE951C00753788 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		351D707B2CCE955100753788 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		3525C6B72C07F1CA00AC800A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		3525C6B92C07F61700AC800A /* TextFieldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContentView.swift; sourceTree = "<group>"; };
 		3525C6BB2C07F76300AC800A /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
@@ -73,6 +84,7 @@
 		359363122C07AC4000B1C233 /* TextContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContentView.swift; sourceTree = "<group>"; };
 		359363142C07AC4100B1C233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		359363172C07AC4100B1C233 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35C6E6FB2C1CE57600482996 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		351D70722CCE921300753788 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				351D707B2CCE955100753788 /* RoundButton.swift */,
+				351D70792CCE951C00753788 /* ToggleButton.swift */,
+				351D70772CCE940300753788 /* CloseButton.swift */,
+				351D70752CCE938C00753788 /* IconButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		3525C6B62C07F17F00AC800A /* TextFields */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +156,7 @@
 				357B0B5D2C07AEB4000B9A7C /* IconLabel.swift */,
 				357B0B5B2C07AE80000B9A7C /* SubtitleLabel.swift */,
 				357B0B592C07AE35000B9A7C /* TitleLabel.swift */,
+				35C6E6FB2C1CE57600482996 /* SectionHeader.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -140,6 +164,7 @@
 		357B0B612C07D754000B9A7C /* CustomComponents */ = {
 			isa = PBXGroup;
 			children = (
+				351D70732CCE925700753788 /* CustomButton.swift */,
 				357B0B5F2C07B989000B9A7C /* CustomText.swift */,
 				3525C6B72C07F1CA00AC800A /* CustomTextField.swift */,
 			);
@@ -179,8 +204,9 @@
 				3525C6D12C08588B00AC800A /* Validation */,
 				357B0B642C07DCA3000B9A7C /* ContentViews */,
 				357B0B612C07D754000B9A7C /* CustomComponents */,
-				3525C6B62C07F17F00AC800A /* TextFields */,
 				357B0B562C07AD7D000B9A7C /* Labels */,
+				3525C6B62C07F17F00AC800A /* TextFields */,
+				351D70722CCE921300753788 /* Buttons */,
 				3525C6BF2C0823AD00AC800A /* Extensions */,
 				359363142C07AC4100B1C233 /* Assets.xcassets */,
 				359363162C07AC4100B1C233 /* Preview Content */,
@@ -268,6 +294,7 @@
 			files = (
 				3525C6C32C082BAE00AC800A /* SearchingTextField.swift in Sources */,
 				3525C6DD2C0877B800AC800A /* BasicLoginView.swift in Sources */,
+				35C6E6FC2C1CE57600482996 /* SectionHeader.swift in Sources */,
 				357B0B662C07DD61000B9A7C /* BodyLabel.swift in Sources */,
 				3525C6B82C07F1CA00AC800A /* CustomTextField.swift in Sources */,
 				3525C6CB2C083B0B00AC800A /* OutlinedTextField.swift in Sources */,
@@ -280,9 +307,14 @@
 				3525C6BA2C07F61700AC800A /* TextFieldContentView.swift in Sources */,
 				3525C6D52C08593C00AC800A /* Validations.swift in Sources */,
 				3525C6DB2C08707F00AC800A /* GangnamTextField.swift in Sources */,
+				351D70782CCE940300753788 /* CloseButton.swift in Sources */,
+				351D707C2CCE955100753788 /* RoundButton.swift in Sources */,
 				357B0B5A2C07AE35000B9A7C /* TitleLabel.swift in Sources */,
+				351D70762CCE938C00753788 /* IconButton.swift in Sources */,
 				3525C6DF2C08868300AC800A /* ProtocolExtension.swift in Sources */,
+				351D70742CCE925700753788 /* CustomButton.swift in Sources */,
 				357B0B5C2C07AE80000B9A7C /* SubtitleLabel.swift in Sources */,
+				351D707A2CCE951C00753788 /* ToggleButton.swift in Sources */,
 				359363112C07AC4000B1C233 /* SwiftUIViewsApp.swift in Sources */,
 				3525C6C12C0823BE00AC800A /* ViewExtension.swift in Sources */,
 				357B0B632C07DC65000B9A7C /* CaptionLabel.swift in Sources */,
