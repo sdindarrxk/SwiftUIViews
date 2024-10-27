@@ -5,6 +5,8 @@
 //  Created by Sabri DİNDAR on 27.10.2024.
 //
 
+import SwiftUI
+
 struct CustomImage: View {
     var imageName: String
     var width: CGFloat

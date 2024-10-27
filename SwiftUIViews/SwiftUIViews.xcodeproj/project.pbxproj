@@ -47,6 +47,7 @@
 		35ED944E2CCE9B3800467E6C /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED944D2CCE9B3800467E6C /* CustomImage.swift */; };
 		35ED94512CCE9BEB00467E6C /* UserProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED94502CCE9BEB00467E6C /* UserProfileImage.swift */; };
 		35ED94532CCE9C0D00467E6C /* LargeHomepageImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED94522CCE9C0D00467E6C /* LargeHomepageImage.swift */; };
+		35ED94562CCEA25200467E6C /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED94552CCEA25200467E6C /* CustomAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,7 @@
 		35ED944D2CCE9B3800467E6C /* CustomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
 		35ED94502CCE9BEB00467E6C /* UserProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileImage.swift; sourceTree = "<group>"; };
 		35ED94522CCE9C0D00467E6C /* LargeHomepageImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeHomepageImage.swift; sourceTree = "<group>"; };
+		35ED94552CCEA25200467E6C /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 		357B0B612C07D754000B9A7C /* CustomComponents */ = {
 			isa = PBXGroup;
 			children = (
+				35ED94552CCEA25200467E6C /* CustomAlertView.swift */,
 				35ED944D2CCE9B3800467E6C /* CustomImage.swift */,
 				351D70732CCE925700753788 /* CustomButton.swift */,
 				357B0B5F2C07B989000B9A7C /* CustomText.swift */,
@@ -215,6 +218,7 @@
 				3525C6B62C07F17F00AC800A /* TextFields */,
 				351D70722CCE921300753788 /* Buttons */,
 				35ED944F2CCE9BD600467E6C /* Images */,
+				35ED94542CCE9CF000467E6C /* Pickers */,
 				3525C6BF2C0823AD00AC800A /* Extensions */,
 				359363142C07AC4100B1C233 /* Assets.xcassets */,
 				359363162C07AC4100B1C233 /* Preview Content */,
@@ -237,6 +241,13 @@
 				35ED94502CCE9BEB00467E6C /* UserProfileImage.swift */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		35ED94542CCE9CF000467E6C /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pickers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,6 +347,7 @@
 				351D707A2CCE951C00753788 /* ToggleButton.swift in Sources */,
 				359363112C07AC4000B1C233 /* SwiftUIViewsApp.swift in Sources */,
 				3525C6C12C0823BE00AC800A /* ViewExtension.swift in Sources */,
+				35ED94562CCEA25200467E6C /* CustomAlertView.swift in Sources */,
 				357B0B632C07DC65000B9A7C /* CaptionLabel.swift in Sources */,
 				35ED944E2CCE9B3800467E6C /* CustomImage.swift in Sources */,
 				3525C6BC2C07F76300AC800A /* PasswordTextField.swift in Sources */,
