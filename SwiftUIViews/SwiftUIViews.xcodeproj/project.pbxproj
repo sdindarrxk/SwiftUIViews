@@ -49,6 +49,7 @@
 		35ED94532CCE9C0D00467E6C /* LargeHomepageImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED94522CCE9C0D00467E6C /* LargeHomepageImage.swift */; };
 		35ED94562CCEA25200467E6C /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED94552CCEA25200467E6C /* CustomAlertView.swift */; };
 		35ED94582CCEA4E300467E6C /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED94572CCEA4E300467E6C /* CustomSegmentedControl.swift */; };
+		35ED945A2CCEACE000467E6C /* CustomWheelPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED94592CCEACE000467E6C /* CustomWheelPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +96,7 @@
 		35ED94522CCE9C0D00467E6C /* LargeHomepageImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeHomepageImage.swift; sourceTree = "<group>"; };
 		35ED94552CCEA25200467E6C /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		35ED94572CCEA4E300467E6C /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		35ED94592CCEACE000467E6C /* CustomWheelPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWheelPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 		357B0B612C07D754000B9A7C /* CustomComponents */ = {
 			isa = PBXGroup;
 			children = (
+				35ED94592CCEACE000467E6C /* CustomWheelPicker.swift */,
 				35ED94572CCEA4E300467E6C /* CustomSegmentedControl.swift */,
 				35ED94552CCEA25200467E6C /* CustomAlertView.swift */,
 				35ED944D2CCE9B3800467E6C /* CustomImage.swift */,
@@ -361,6 +364,7 @@
 				3525C6D32C0858F100AC800A /* ValidationDelegate.swift in Sources */,
 				357B0B682C07DD82000B9A7C /* HeaderLabel.swift in Sources */,
 				3525C6D92C086E6F00AC800A /* ButterflyTextField.swift in Sources */,
+				35ED945A2CCEACE000467E6C /* CustomWheelPicker.swift in Sources */,
 				3525C6D02C08586800AC800A /* ValidationModel.swift in Sources */,
 				357B0B602C07B989000B9A7C /* CustomText.swift in Sources */,
 			);

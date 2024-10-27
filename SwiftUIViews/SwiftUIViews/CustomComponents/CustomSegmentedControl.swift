@@ -24,10 +24,11 @@ struct CustomSegmentedControl: View {
                             .padding()
                             .foregroundColor(selectedIndex == index ? .indigo : .indigo.opacity(0.5))
                             .overlay(content: {
-                                selectedIndex == index ? Rectangle()
-                                    .fill(Color.indigo)
-                                    .frame(width: 40, height: 2)
-                                    .padding(.top, 30) : nil
+                                selectedIndex == index
+                                    ? Rectangle()
+                                        .fill(Color.indigo)
+                                        .frame(width: 40, height: 2)
+                                        .padding(.top, 30) : nil
                             })
                     }
                 }
