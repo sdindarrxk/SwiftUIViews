@@ -48,6 +48,7 @@
 		35ED94512CCE9BEB00467E6C /* UserProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED94502CCE9BEB00467E6C /* UserProfileImage.swift */; };
 		35ED94532CCE9C0D00467E6C /* LargeHomepageImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED94522CCE9C0D00467E6C /* LargeHomepageImage.swift */; };
 		35ED94562CCEA25200467E6C /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED94552CCEA25200467E6C /* CustomAlertView.swift */; };
+		35ED94582CCEA4E300467E6C /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED94572CCEA4E300467E6C /* CustomSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,7 @@
 		35ED94502CCE9BEB00467E6C /* UserProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileImage.swift; sourceTree = "<group>"; };
 		35ED94522CCE9C0D00467E6C /* LargeHomepageImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeHomepageImage.swift; sourceTree = "<group>"; };
 		35ED94552CCEA25200467E6C /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		35ED94572CCEA4E300467E6C /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 		357B0B612C07D754000B9A7C /* CustomComponents */ = {
 			isa = PBXGroup;
 			children = (
+				35ED94572CCEA4E300467E6C /* CustomSegmentedControl.swift */,
 				35ED94552CCEA25200467E6C /* CustomAlertView.swift */,
 				35ED944D2CCE9B3800467E6C /* CustomImage.swift */,
 				351D70732CCE925700753788 /* CustomButton.swift */,
@@ -343,6 +346,7 @@
 				3525C6DF2C08868300AC800A /* ProtocolExtension.swift in Sources */,
 				35ED94532CCE9C0D00467E6C /* LargeHomepageImage.swift in Sources */,
 				351D70742CCE925700753788 /* CustomButton.swift in Sources */,
+				35ED94582CCEA4E300467E6C /* CustomSegmentedControl.swift in Sources */,
 				357B0B5C2C07AE80000B9A7C /* SubtitleLabel.swift in Sources */,
 				351D707A2CCE951C00753788 /* ToggleButton.swift in Sources */,
 				359363112C07AC4000B1C233 /* SwiftUIViewsApp.swift in Sources */,
