@@ -10,6 +10,10 @@
 		350C52792CCEB61E0038D615 /* CustomToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C52782CCEB61E0038D615 /* CustomToggleStyle.swift */; };
 		350C527D2CCEB6770038D615 /* CustomSliderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C527C2CCEB6770038D615 /* CustomSliderModifier.swift */; };
 		350C527F2CCEB69A0038D615 /* ViewStylesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C527E2CCEB69A0038D615 /* ViewStylesContentView.swift */; };
+		350C52832CCEB94C0038D615 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C52822CCEB94C0038D615 /* Product.swift */; };
+		350C52852CCEB9EE0038D615 /* ProductCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C52842CCEB9EE0038D615 /* ProductCardView.swift */; };
+		350C52872CCEBA040038D615 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C52862CCEBA040038D615 /* CustomGridView.swift */; };
+		350C52892CCEBA110038D615 /* GridContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C52882CCEBA110038D615 /* GridContentView.swift */; };
 		351D70742CCE925700753788 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D70732CCE925700753788 /* CustomButton.swift */; };
 		351D70762CCE938C00753788 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D70752CCE938C00753788 /* IconButton.swift */; };
 		351D70782CCE940300753788 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351D70772CCE940300753788 /* CloseButton.swift */; };
@@ -60,6 +64,10 @@
 		350C52782CCEB61E0038D615 /* CustomToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomToggleStyle.swift; sourceTree = "<group>"; };
 		350C527C2CCEB6770038D615 /* CustomSliderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSliderModifier.swift; sourceTree = "<group>"; };
 		350C527E2CCEB69A0038D615 /* ViewStylesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStylesContentView.swift; sourceTree = "<group>"; };
+		350C52822CCEB94C0038D615 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		350C52842CCEB9EE0038D615 /* ProductCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardView.swift; sourceTree = "<group>"; };
+		350C52862CCEBA040038D615 /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
+		350C52882CCEBA110038D615 /* GridContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridContentView.swift; sourceTree = "<group>"; };
 		351D70732CCE925700753788 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		351D70752CCE938C00753788 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		351D70772CCE940300753788 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
@@ -126,6 +134,17 @@
 				350C52782CCEB61E0038D615 /* CustomToggleStyle.swift */,
 			);
 			path = "View Styles";
+			sourceTree = "<group>";
+		};
+		350C52802CCEB9300038D615 /* Grids - List */ = {
+			isa = PBXGroup;
+			children = (
+				350C52882CCEBA110038D615 /* GridContentView.swift */,
+				350C52862CCEBA040038D615 /* CustomGridView.swift */,
+				350C52842CCEB9EE0038D615 /* ProductCardView.swift */,
+				350C52822CCEB94C0038D615 /* Product.swift */,
+			);
+			path = "Grids - List";
 			sourceTree = "<group>";
 		};
 		351D70722CCE921300753788 /* Buttons */ = {
@@ -244,6 +263,7 @@
 				351D70722CCE921300753788 /* Buttons */,
 				35ED944F2CCE9BD600467E6C /* Images */,
 				35ED94542CCE9CF000467E6C /* Pickers */,
+				350C52802CCEB9300038D615 /* Grids - List */,
 				3525C6BF2C0823AD00AC800A /* Extensions */,
 				350C52772CCEB60C0038D615 /* View Styles */,
 				359363142C07AC4100B1C233 /* Assets.xcassets */,
@@ -355,6 +375,7 @@
 				35ED94512CCE9BEB00467E6C /* UserProfileImage.swift in Sources */,
 				357B0B6A2C07DDB6000B9A7C /* FooterLabel.swift in Sources */,
 				3525C6BE2C08237900AC800A /* UnderlinedTextField.swift in Sources */,
+				350C52892CCEBA110038D615 /* GridContentView.swift in Sources */,
 				359363132C07AC4000B1C233 /* TextContentView.swift in Sources */,
 				3525C6D72C085B7800AC800A /* IllusionTextField.swift in Sources */,
 				3525C6C92C0838D500AC800A /* OvalTextField.swift in Sources */,
@@ -373,7 +394,9 @@
 				357B0B5C2C07AE80000B9A7C /* SubtitleLabel.swift in Sources */,
 				351D707A2CCE951C00753788 /* ToggleButton.swift in Sources */,
 				35ED945C2CCEAD6D00467E6C /* CustomDatePicker.swift in Sources */,
+				350C52872CCEBA040038D615 /* CustomGridView.swift in Sources */,
 				359363112C07AC4000B1C233 /* SwiftUIViewsApp.swift in Sources */,
+				350C52852CCEB9EE0038D615 /* ProductCardView.swift in Sources */,
 				3525C6C12C0823BE00AC800A /* ViewExtension.swift in Sources */,
 				350C527D2CCEB6770038D615 /* CustomSliderModifier.swift in Sources */,
 				35ED94562CCEA25200467E6C /* CustomAlertView.swift in Sources */,
@@ -381,6 +404,7 @@
 				35ED944E2CCE9B3800467E6C /* CustomImage.swift in Sources */,
 				3525C6BC2C07F76300AC800A /* PasswordTextField.swift in Sources */,
 				3525C6CD2C0843DB00AC800A /* CommonTextField.swift in Sources */,
+				350C52832CCEB94C0038D615 /* Product.swift in Sources */,
 				357B0B5E2C07AEB4000B9A7C /* IconLabel.swift in Sources */,
 				350C52792CCEB61E0038D615 /* CustomToggleStyle.swift in Sources */,
 				3525C6C72C08375E00AC800A /* NeumorphicStyleTextField.swift in Sources */,
